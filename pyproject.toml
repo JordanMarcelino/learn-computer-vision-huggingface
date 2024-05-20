@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learn-computer-vision-huggingface"
+version = "0.1.0"
+description = "Learning Computer Vision from HuggingFace Computer Vision Course Community Version"
+authors = ["JordanMarcelino <jhordan.marcelino@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.3.0"
+torchinfo = "^1.8.0"
+torchmetrics = "^1.4.0.post0"
+transformers = "^4.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
